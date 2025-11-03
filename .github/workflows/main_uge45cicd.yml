@@ -27,7 +27,7 @@ jobs:
 
   test:
     runs-on: windows-latest
-    #needs: scan-for-vulnerable-packages
+    needs: scan-for-vunerable-packages
     steps:
       - uses: actions/checkout@v4
       - name: Run tests

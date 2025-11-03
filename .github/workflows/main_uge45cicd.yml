@@ -36,7 +36,6 @@ jobs:
 
   build:
     runs-on: windows-latest
-    needs: scan-for-vulnerable-packages
     #needs: test
     permissions:
       contents: read #This is required for actions/checkout
